@@ -1,0 +1,149 @@
+body {
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #484848;
+	margin: 0 0 200px;
+	background: url(images/bg.png) left top repeat;
+	border-top: 7px solid #49bbcc;
+	overflow-x: hidden;
+}
+p {
+	margin: 0;
+}
+img.img-responsive {
+	max-width: 100%;
+	height: auto;
+}
+
+header {
+	width: 100%;
+	margin: 0 auto 30px;
+	padding: 0 13px;
+	max-width: 980px;
+}
+.logo {
+	font-size: 90px;
+	font-family: Tahoma, sans-serif;
+	line-height: 1.1em;
+	color: #fff;
+	background: #49bbcc;
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	text-indent: 14px;
+	margin: 56px 13px;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0 13px;
+	max-width: 980px;
+}
+h3 {
+	font-size: 70px;
+	color: #49BBCC;
+	margin: 25px 0;
+}
+p.subtitle {
+	font-size: 25px;
+	color: #242424;
+}
+p.separator {
+	font-size: 20px;
+	color: #9C9C9C;
+	overflow: hidden;
+	letter-spacing: 2px;
+	margin: 20px 0 40px;
+	float: left;
+	width: 100%;
+}
+h5 {
+	font-size: 28px;
+	color: #242424;
+	font-weight: normal;
+	margin: 40px 0 20px;
+}
+h5 span {
+	color: #49bbcc;
+}
+
+.box {
+	float: left;
+	width: 100%;
+	background: #fff;
+}
+.box .box-title {
+	width: 196px;
+	height: 417px;
+	float: left;
+	color: #fff;
+}
+.box .box-title h1 {
+	margin: 110px 10px;
+	font-weight: normal;
+	text-align: center;
+}
+.left-box .box-title {
+	background: url(images/left-box.gif) center no-repeat;
+}
+.right-box .box-title {
+	background: url(images/right-box.gif) center no-repeat;
+}
+.box ul {
+	margin: 0 0 0 196px;
+	padding-right: 15px;
+}
+.box ul li {
+	margin: 1.6em 0;
+}
+
+.screen {
+	float: left;
+	width: 100%;
+	margin: 35px 0;
+}
+.screen .screen-left {
+	background: url(images/screen.png) left top no-repeat;
+	min-width: 571px;
+	min-height: 440px;
+	padding: 25px 20px;
+}
+.screen .screen-left img {
+	width: 531px;
+	height: auto;
+}
+.screen ul li {
+	margin: 1.6em 0;
+}
+
+@media (max-width: 590px) {
+	.screen .screen-left {
+		background: url(images/screen.png) left top no-repeat;
+		background-size: 320px auto;
+		min-width: 320px;
+		min-height: 220px;
+		padding: 25px 20px;
+	}
+	.screen .screen-left img {
+		width: 280px;
+		height: auto;
+	}
+}
+@media (min-width: 1024px) {
+	h3 {
+		font-size: 163px;
+	}
+	p.subtitle {
+		font-size: 50px;
+	}
+	h5 {
+		font-size: 40px;
+	}
+	.box {
+		width: 50%;
+	}
+	.screen-left {
+		width: 571px;
+		float: left;
+	}
+}
